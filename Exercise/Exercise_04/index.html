@@ -6,7 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>看板 marvel</title>
+    <link rel="stylesheet" href="path/to/style.css" />
 </head>
+
+<style>
+ol {list-style: none; counter-reset: li}
+li::before {content: counter(li); color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+  li {counter-increment: li}
+  ul {
+
+       display:block;
+
+       list-style-type:none;
+
+margin:5px;
+
+}
+
+
+</style>
 
 <body style="background-color:black">
     <div>
@@ -16,7 +36,7 @@
         <a href="https://www.ptt.cc/bbs/marvel/index.html" title="看板" target="_blank">看板</a>
         <a href="1.html" title="看板"
             target="_blank">精華區</a><br />
-        <ul>
+        <ol style="line-height:20px;">
             <font color="white">
 
                 <li>[創作] 靈藏冷鏈物流</br>
@@ -41,7 +61,7 @@
                     praymoon</li>
                 <img src="https://images2.imgbox.com/1b/c5/fxCzX9Qa_o.jpg">
             </font>
-        </ul>
+        </ol>
     </div>
 </body>
 
