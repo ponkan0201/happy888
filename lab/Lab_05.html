@@ -10,9 +10,9 @@
 
   <style>
     table {
-      border-collapse: collapse;
+      border-collapse: separate;
       border-spacing: 0;
-      border: 1px solid #c0c0c0;
+      border: 0px solid #c0c0c0;
       width: 800px;
     }
 
@@ -21,6 +21,7 @@
       border: 1px solid #d0d0d0;
       color: #404060;
       padding: 10px;
+      border-radius: 10px;
     }
 
     th {
@@ -32,11 +33,27 @@
     td {
       font: 14px "微軟正黑";
       text-align: center;
+
     }
+
+    tr {
+      background-color: white;
+    }
+
+    body {
+            display: flex;
+            min-height: 100vh;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
   </style>
 </head>
 
 <body style="background-color:#f7faeb">
+  <div class="container">
   <table border="1">
     <caption>
       <H1>
@@ -132,6 +149,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
 </body>
 
 </html>

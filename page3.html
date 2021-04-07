@@ -8,46 +8,49 @@
     <title>快樂888</title>
     <style>
         body {
-            display: flex;
+            display: grid;
             flex-direction: column;
             min-height: 100vh;
             margin: 0;
             font-size: 3rem;
+            grid-template-rows: auto 1fr 100px;
+            grid-template-columns: 2fr 1fr;
         }
 
         header {
             background-color: violet;
-
-        }
-
-        .content {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
+            grid-column: 1 / -1;
         }
 
         main {
             background-color: wheat;
-            flex-grow: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main div {
+            border: 1px black solid;
+
         }
 
         aside {
             background-color: pink;
-            flex-grow: 1;
         }
 
         footer {
             background-color: lightblue;
+            grid-column: 1 / -1;
         }
     </style>
 </head>
 
 <body>
     <header>Header</header>
-    <div class="content">
-        <main>Main</main>
-        <aside>Aside</aside>
-    </div>
+    <main>Main
+        <div></div>
+    </main>
+    <aside>Aside</aside>
     <footer>Footer</footer>
 
 </body>
