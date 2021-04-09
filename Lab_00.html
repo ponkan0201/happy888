@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Index</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        
+        header {
+            background-color: black;
+            color: white;
+            height: 75px;
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+        
+        h2 {
+            padding-right: 30px;
+        }
+        
+        nav>ul {
+            background-color: black;
+            color: white;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav a {
+            color: inherit;
+            display: block;
+            font-size: 12pt;
+            padding: 10px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .flex-nav {
+            display: flex;
+            justify-content: left;
+        }
+        
+        main {
+            height: 100%;
+            position: relative;
+            background-color: #000;
+        }
+        
+        footer {
+            background-color: black;
+            font-size: 10pt;
+            color: white;
+            height: 150px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        
+        .SocialLinkList-items {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .SocialLink {
+            padding: 10px;
+            color: inherit;
+            font-size: 12pt;
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        .AuthorBio-socialLinks [aria-label=twitter] {
+            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-twitter-blue.42ac34587b64e75dce0669ce0aa104f6.svg') no-repeat 50%;
+            width: 16px;
+            height: 16px;
+            background-size: 100%;
+            padding: 0 8px
+        }
+        
+        .AuthorBio-socialLinks [aria-label=facebook] {
+            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-facebook-blue.912344cc52d9bf26edbb56d83b840d84.svg') no-repeat 50%;
+            width: 16px;
+            height: 16px;
+            background-size: 100%;
+            padding: 0 8px
+        }
+        
+        .AuthorBio-socialLinks [aria-label=instagram] {
+            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-instagram-blue.03bafa19420664cf81e4f70e016efc67.svg') no-repeat 50%;
+            width: 16px;
+            height: 16px;
+            background-size: 100%;
+            padding: 0 8px
+        }
+        
+        .AuthorBio-socialLinks [aria-label=youtube] {
+            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-youtube-blue.f81af3b10a8b84db59cb2c3850f4ec0d.svg') no-repeat 50%;
+            height: 16px;
+            width: 40px;
+            display: block;
+            background-size: 100%
+        }
+        
+        .carousel {
+            height: 100%;
+        }
+        
+        .carousel-inner,
+        .carousel-item {
+            height: 100%;
+        }
+        
+        .carousel-item {
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .carousel-item:nth-of-type(1) {
+            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-1.jpg);
+        }
+        
+        .carousel-item:nth-of-type(2) {
+            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-2.jpg);
+        }
+        
+        .carousel-item:nth-of-type(3) {
+            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-3.jpg);
+        }
+        
+        .carousel-item:nth-of-type(4) {
+            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-4.jpg);
+        }
+        
+        .carousel-caption {
+            left: 15%;
+            right: 60%;
+            bottom: 15%;
+            top: auto;
+            display: none;
+        }
+        
+        .carousel-caption p {
+            font-size: 8pt;
+        }
+        
+        .carousel-caption a {
+            font-size: 10pt;
+            color: inherit;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(20, 40, 100);
+            padding: 10px;
+        }
+        
+        .carousel-caption a:hover {
+            background-color: white;
+            color: rgb(20, 40, 100);
+            text-decoration: none;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .carousel-caption {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <header>
+
+        <nav>
+            <ul class="flex-nav">
+                <li>
+                    <h2>拍賣會的貓</h2>
+                </li>
+                <li><a href="#">購買</a></li>
+                <li><a href="#">出售</a></li>
+                <li><a href="#">瀏覽</a></li>
+                <li><a href="#">服務</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- 以下是一個 slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!-- 以下是 slider 下方的指示器 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <!-- 以下是 slider 中的影像圖片區 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- 下方 div 是標題說明區 -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>第一張圖片</h3>
+                        <p>迷濛眼神</p>
+                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
+                        </p>
+                        <a href="#">點閱詳情</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- 下方 div 是標題說明區 -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>第二張圖片</h3>
+                        <p>逐漸游離</p>
+                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
+                        </p>
+                        <a href="#">點閱詳情</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- 下方 div 是標題說明區 -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>第三張圖片</h3>
+                        <p>半夢半醒</p>
+                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
+                        </p>
+                        <a href="#">點閱詳情</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- 下方 div 是標題說明區 -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>第四張圖片</h3>
+                        <p>陷入睡眠</p>
+                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
+                        </p>
+                        <a href="#">點閱詳情</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 以下是 slider 左右方向的控制區 -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="SocialLinks">
+            <div class="SocialLinkList">
+                <ul class="SocialLinkList-items">
+                    <li class="SocialLink"><a data-text-content="twitter" href="#" target="_blank">twitter</a></li>
+                    <li class="SocialLink"><a data-text-content="facebook" href="#" target="_blank">facebook</a></li>
+                    <li class="SocialLink"><a data-text-content="instagram" href="#" target="_blank">instagram</a></li>
+                    <li class="SocialLink"><a data-text-content="youtube" href="#" target="_blank">youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>© 2021 webGOGO</p>
+    </footer>
+
+</body>
+
+
+</html>
