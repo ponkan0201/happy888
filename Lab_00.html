@@ -5,175 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title>Index</title>
+    <title>Sotheby's</title>
 
     <style>
-        html,
-        body {
-            height: 100%;
-        }
-        
-        header {
-            background-color: black;
-            color: white;
-            height: 75px;
-            padding-left: 10px;
-            padding-top: 15px;
-        }
-        
-        h2 {
-            padding-right: 30px;
-        }
-        
-        nav>ul {
-            background-color: black;
-            color: white;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        nav a {
-            color: inherit;
-            display: block;
-            font-size: 12pt;
-            padding: 10px;
-            text-decoration: none;
-        }
-        
-        nav a:hover {
-            background-color: white;
-            color: black;
-            text-decoration: none;
-        }
-        
-        .flex-nav {
-            display: flex;
-            justify-content: left;
-        }
-        
-        main {
-            height: 100%;
-            position: relative;
-            background-color: #000;
-        }
-        
-        footer {
-            background-color: black;
-            font-size: 10pt;
-            color: white;
-            height: 150px;
-            text-align: center;
-            padding-top: 15px;
-        }
-        
-        .SocialLinkList-items {
-            display: flex;
-            justify-content: center;
-        }
-        
-        .SocialLink {
-            padding: 10px;
-            color: inherit;
-            font-size: 12pt;
-            text-decoration: none;
-            list-style: none;
-        }
-        
-        .AuthorBio-socialLinks [aria-label=twitter] {
-            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-twitter-blue.42ac34587b64e75dce0669ce0aa104f6.svg') no-repeat 50%;
-            width: 16px;
-            height: 16px;
-            background-size: 100%;
-            padding: 0 8px
-        }
-        
-        .AuthorBio-socialLinks [aria-label=facebook] {
-            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-facebook-blue.912344cc52d9bf26edbb56d83b840d84.svg') no-repeat 50%;
-            width: 16px;
-            height: 16px;
-            background-size: 100%;
-            padding: 0 8px
-        }
-        
-        .AuthorBio-socialLinks [aria-label=instagram] {
-            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-instagram-blue.03bafa19420664cf81e4f70e016efc67.svg') no-repeat 50%;
-            width: 16px;
-            height: 16px;
-            background-size: 100%;
-            padding: 0 8px
-        }
-        
-        .AuthorBio-socialLinks [aria-label=youtube] {
-            background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-youtube-blue.f81af3b10a8b84db59cb2c3850f4ec0d.svg') no-repeat 50%;
-            height: 16px;
-            width: 40px;
-            display: block;
-            background-size: 100%
-        }
-        
-        .carousel {
-            height: 100%;
-        }
-        
-        .carousel-inner,
-        .carousel-item {
-            height: 100%;
-        }
-        
-        .carousel-item {
-            background-size: cover;
-            background-position: center;
-        }
-        
-        .carousel-item:nth-of-type(1) {
-            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-1.jpg);
-        }
-        
-        .carousel-item:nth-of-type(2) {
-            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-2.jpg);
-        }
-        
-        .carousel-item:nth-of-type(3) {
-            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-3.jpg);
-        }
-        
-        .carousel-item:nth-of-type(4) {
-            background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/images/feifei-4.jpg);
-        }
-        
-        .carousel-caption {
-            left: 15%;
-            right: 60%;
-            bottom: 15%;
-            top: auto;
-            display: none;
-        }
-        
-        .carousel-caption p {
-            font-size: 8pt;
-        }
-        
-        .carousel-caption a {
-            font-size: 10pt;
-            color: inherit;
-            text-decoration: none;
-            color: white;
-            background-color: rgb(20, 40, 100);
-            padding: 10px;
-        }
-        
-        .carousel-caption a:hover {
-            background-color: white;
-            color: rgb(20, 40, 100);
-            text-decoration: none;
-        }
-        
-        @media screen and (min-width: 768px) {
-            .carousel-caption {
-                display: block;
-            }
-        }
+        @import url(css.css);
     </style>
 </head>
 
@@ -186,7 +21,7 @@
         <nav>
             <ul class="flex-nav">
                 <li>
-                    <h2>拍賣會的貓</h2>
+                    <h2>Sotheby's</h2>
                 </li>
                 <li><a href="#">購買</a></li>
                 <li><a href="#">出售</a></li>
@@ -210,9 +45,18 @@
                 <div class="carousel-item active">
                     <!-- 下方 div 是標題說明區 -->
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>第一張圖片</h3>
-                        <p>迷濛眼神</p>
-                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
+                        <h3>2021年春季拍賣</h3>
+                        <p>4月16-23日 • 香港</p>
+                        <p class="caption">萬眾期待的2021年香港蘇富比春季拍賣將於4月16日至23日隆重舉行。</p>
+                        <a href="#">點閱詳情</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- 下方 div 是標題說明區 -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>神品：超越時空的大師之作</h3>
+                        <p>拍賣：2021年4月18日 • 下午6時</p>
+                        <p class="caption">古人評畫，嘗以「神品」謂之，表示藝術家刻劃事物達到了最高境界。 明代陶宗儀《輟耕錄》中敘畫一節將神品定義為: 「氣韻生動，出於天成，人莫窺其巧者，謂之神品。」 這些曠世傑作除了已臻化境的技巧之外，主題皆以「人」為本，以作品為鑑，反觀己身，思考人與世界萬物之間的連結。 「神品：超越時空的大師之作」打破地域、時代、媒材藩籬，帶給古今中外觀者一脈相承的、對美的悸動。
                         </p>
                         <a href="#">點閱詳情</a>
                     </div>
@@ -220,29 +64,18 @@
                 <div class="carousel-item">
                     <!-- 下方 div 是標題說明區 -->
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>第二張圖片</h3>
-                        <p>逐漸游離</p>
-                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
-                        </p>
+                        <h3>珍稀烈酒 | Black Bowmore Archive Cabinet</h3>
+                        <p>拍賣：2021年4月18日 • 下午 12:00 HKT • 香港</p>
+                        <p class="caption">香港蘇富比即將首度舉行現場烈酒專拍。其中萬眾矚目的重量級拍品當屬Black Bowmore典藏系列，系列包括酒廠直遞的五代Black Bowmore威士忌，並展示在著名匠師John Galvin手製的陳列櫃中。拍賣另呈輕井澤、The Macallan及伊知郎撲克牌系列等頂級日本及蘇格蘭名釀。</p>
                         <a href="#">點閱詳情</a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <!-- 下方 div 是標題說明區 -->
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>第三張圖片</h3>
-                        <p>半夢半醒</p>
-                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
-                        </p>
-                        <a href="#">點閱詳情</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <!-- 下方 div 是標題說明區 -->
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>第四張圖片</h3>
-                        <p>陷入睡眠</p>
-                        <p>內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文 內文內文內文內文內文內文內文內文內文內文
+                        <h3>殊雅：孤芳不自賞</h3>
+                        <p>網上拍賣：2021年4月15-28日 • 上午 11:00 HKT • 香港</p>
+                        <p class="caption">蘇富比榮幸呈獻42件自18世紀末至今的璀璨珠寶，每一件年代珍品，都訴說著一段傳奇。這也正是我們征集並這一專題拍賣的初衷：Sui Generis孤芳不自賞，穿越時空的珠寶。本次上拍的精品包括三件極有可能為19世紀威廉四世國王後人所有並佩戴過的皇室珍品；來自海瑞溫斯頓品牌打造的一枚重達11.88克拉淡彩棕粉紅色鑽石配鑽石戒指，一條精彩的美國著名品牌Marcus&Co. 裝飾藝術時期的手鏈。我們誠摯邀約，與您一同開啟穿越時空的珠寶收藏之旅，在色彩，質感，符號，紋飾中體驗年代珠寶的非凡魅力！
                         </p>
                         <a href="#">點閱詳情</a>
                     </div>

@@ -1,0 +1,172 @@
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 75px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+h2 {
+    padding-right: 30px;
+}
+
+nav>ul {
+    background-color: black;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 12pt;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: left;
+}
+
+main {
+    height: 100%;
+    position: relative;
+    background-color: #000;
+}
+
+footer {
+    background-color: black;
+    font-size: 10pt;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.SocialLinkList-items {
+    display: flex;
+    justify-content: center;
+}
+
+.SocialLink {
+    padding: 10px;
+    color: inherit;
+    font-size: 12pt;
+    text-decoration: none;
+    list-style: none;
+}
+
+.AuthorBio-socialLinks [aria-label=twitter] {
+    background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-twitter-blue.42ac34587b64e75dce0669ce0aa104f6.svg') no-repeat 50%;
+    width: 16px;
+    height: 16px;
+    background-size: 100%;
+    padding: 0 8px
+}
+
+.AuthorBio-socialLinks [aria-label=facebook] {
+    background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-facebook-blue.912344cc52d9bf26edbb56d83b840d84.svg') no-repeat 50%;
+    width: 16px;
+    height: 16px;
+    background-size: 100%;
+    padding: 0 8px
+}
+
+.AuthorBio-socialLinks [aria-label=instagram] {
+    background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-instagram-blue.03bafa19420664cf81e4f70e016efc67.svg') no-repeat 50%;
+    width: 16px;
+    height: 16px;
+    background-size: 100%;
+    padding: 0 8px
+}
+
+.AuthorBio-socialLinks [aria-label=youtube] {
+    background: url('../../../resource/00000169-4eb2-d078-adfb-6eb2e0750000/styleguide/assets/media/logo-youtube-blue.f81af3b10a8b84db59cb2c3850f4ec0d.svg') no-repeat 50%;
+    height: 16px;
+    width: 40px;
+    display: block;
+    background-size: 100%
+}
+
+.carousel {
+    height: 100%;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item:nth-of-type(1) {
+    background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/img/001.jpg);
+}
+
+.carousel-item:nth-of-type(2) {
+    background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/img/002.jpg);
+}
+
+.carousel-item:nth-of-type(3) {
+    background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/img/003.jpg);
+}
+
+.carousel-item:nth-of-type(4) {
+    background-image: url(https://raw.githubusercontent.com/ponkan0201/happy888/master/img/004.jpg);
+}
+
+.carousel-caption {
+    left: 15%;
+    right: 60%;
+    bottom: 15%;
+    top: auto;
+    display: none;
+    background: #110441ab;
+    padding: 20px;
+}
+
+.carousel-caption p {
+    font-size: 8pt;
+}
+
+.caption {
+    text-align: left;
+}
+
+.carousel-caption a {
+    font-size: 10pt;
+    color: inherit;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(13, 36, 138);
+    padding: 10px;
+}
+
+.carousel-caption a:hover {
+    background-color: white;
+    color: rgb(20, 40, 100);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        display: block;
+    }
+}
