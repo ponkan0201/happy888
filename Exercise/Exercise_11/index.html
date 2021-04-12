@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab_06</title>
+    <title>Exercise_11</title>
     <style>
         .HolyGrail {
             display: flex;
@@ -13,18 +13,18 @@
             flex-direction: column;
             margin: 0;
         }
-
+        
         header,
         footer {
             flex: 1;
         }
-
+        
         .HolyGrail-body {
             display: flex;
             flex: 1;
             flex-direction: row-reverse;
         }
-
+        
         .HolyGrail-content {
             display: flex;
             flex: 1;
@@ -32,41 +32,82 @@
             flex-wrap: wrap;
             justify-content: flex-start;
         }
-
+        
         .HolyGrail-nav,
         .HolyGrail-ads {
-            flex: 0 0 12em;
+            flex: 0 0 20em;
         }
-
+        
         .HolyGrail-nav {
             order: -1;
         }
-
+        
         header {
             background-color: #ff7f50;
+            max-height: 60px;
+        }
+        
+        .title {
             color: white;
             padding-left: 30px;
             font-size: 14pt;
             font-weight: bold;
             font-style: italic;
-            max-height: 60px;
         }
-
+        
         main {
             background-color: white;
             padding: 10px;
         }
-
+        
         aside {
-            padding: 10px;
             max-width: 600px;
+            padding-top: 4px;
         }
-
+        
+        .category5 {
+            padding: 10px;
+            color: inherit;
+            font-size: 12pt;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            border-style: dashed;
+            border-width: 1px;
+            border-collapse: collapse;
+            background-color: navajowhite;
+        }
+        
+        .category5-1 {
+            padding: 10px;
+            color: inherit;
+            font-size: 12pt;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            border-style: solid;
+            border-width: 1px;
+            background-color: navajowhite;
+        }
+        
+        .aside-category {
+            max-width: 150px;
+            position: absolute;
+            left: 200px;
+        }
+        
+        .cart {
+            position: absolute;
+            right: 30px;
+            top: 15px;
+            font-size: 14pt;
+            text-decoration: none;
+        }
+        
         .HolyGrail-ads {
-            background-color: pink;
-            text-align: right;
+            background-color: white;
         }
-
+        
         footer {
             background-color: #808080;
             font-size: 10pt;
@@ -74,9 +115,9 @@
             font-style: italic;
             color: white;
             text-align: center;
-            max-height: 40px;
+            max-height: 30px;
         }
-
+        
         .card {
             border-color: gray;
             border-width: 1px;
@@ -87,34 +128,36 @@
             padding: 0;
             max-height: 250px;
         }
-
+        
         .name {
             text-align: left;
             font-size: 8pt;
             padding-left: 10px;
         }
-
+        
         .sale-price {
             font-size: 24pt;
             text-align: center;
         }
-
+        
         .add {
             text-align: right;
             font-size: 10pt;
             padding-right: 10px;
         }
-
     </style>
 </head>
 
 <body class="HolyGrail">
     <header>
-        <p>MyShop</p>
+        <p class="title">MyShop</p>
+        <div class="cart">
+            <a href="#">商品</a> <a href="#">購物車</a>
+        </div>
     </header>
 
     <div class="HolyGrail-body">
-        <nav class="HolyGrail-nav">商品 購物車</nav>
+        <nav class="HolyGrail-nav"></nav>
 
         <main class="HolyGrail-content">
 
@@ -165,11 +208,16 @@
 
         </main>
         <aside class="HolyGrail-ads">
-            商品分類</br>
-            所有商品</br>
-            暢銷商品</br>
-            本日精選</br>
-            新品上市</br>
+            <div class="aside-category">
+                <ul class="category">
+                    <li class="category5-1"><a data-text-content="twitter" href="#" target="_blank">商品分類</a></li>
+                    <li class="category5"><a data-text-content="twitter" href="#" target="_blank">所有商品</a></li>
+                    <li class="category5"><a data-text-content="twitter" href="#" target="_blank">暢銷商品</a></li>
+                    <li class="category5"><a data-text-content="twitter" href="#" target="_blank">本日精選</a></li>
+                    <li class="category5"><a data-text-content="twitter" href="#" target="_blank">新品上市</a></li>
+            </div>
+            </ul>
+
         </aside>
     </div>
 

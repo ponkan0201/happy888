@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
     <title>快樂888</title>
     <style>
         body {
@@ -14,28 +17,27 @@
             margin: 0;
             font-size: 3rem;
         }
-
+        
         header {
             background-color: violet;
-
         }
-
+        
         .content {
             flex-grow: 1;
             display: flex;
             flex-direction: row;
         }
-
+        
         main {
             background-color: wheat;
             flex-grow: 2;
         }
-
+        
         aside {
             background-color: pink;
             flex-grow: 1;
         }
-
+        
         footer {
             background-color: lightblue;
         }
@@ -45,7 +47,16 @@
 <body>
     <header>Header</header>
     <div class="content">
-        <main>Main</main>
+        <main>Main
+
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>List icons can</li>
+                <li><span class="fa-li"><i class="fas fa-check-square"></i></span>be used to</li>
+                <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>replace bullets</li>
+                <li><span class="fa-li"><i class="far fa-square"></i></span>in lists</li>
+            </ul>
+
+        </main>
         <aside>Aside</aside>
     </div>
     <footer>Footer</footer>
