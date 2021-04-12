@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise_12</title>
+    <link rel="stylesheet" href="path/to/style.css" />
+    <style>
+        body {
+            display: grid;
+            height: 100vh;
+            grid-template: auto 1fr auto / auto 1fr auto;
+            margin: 0;
+        }
+        
+        header {
+            background: lightpink;
+            padding: 2rem;
+            grid-column: 1 / 4;
+        }
+        
+        .left-sidebar {
+            background: lightblue;
+            grid-column: 1 / 2;
+        }
+        
+        main {
+            background: coral;
+            grid-column: 2 / 3;
+        }
+        
+        .right-sidebar {
+            background: yellow;
+            grid-column: 3 / 4;
+        }
+        
+        footer {
+            background: wheat;
+            padding: 2rem;
+            text-align: center;
+            grid-column: 1 / 4;
+        }
+        
+        body {
+            font-family: system-ui, sans-serif;
+        }
+        
+        .left-sidebar,
+        .right-sidebar {
+            padding: 1rem;
+        }
+        
+        .category {
+            padding: 10px;
+            color: inherit;
+            font-size: 12pt;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            border-style: dashed;
+            border-width: 1px;
+            border-collapse: collapse;
+            background-color: navajowhite;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MyShop</h1>
+    </header>
+
+    <div class="left-sidebar">
+        <div class="aside-category">
+            <ul class="category">
+                <li class="category5-1"><a data-text-content="twitter" href="#" target="_blank">商品分類</a></li>
+                <li class="category5"><a data-text-content="twitter" href="#" target="_blank">所有商品</a></li>
+                <li class="category5"><a data-text-content="twitter" href="#" target="_blank">暢銷商品</a></li>
+                <li class="category5"><a data-text-content="twitter" href="#" target="_blank">本日精選</a></li>
+                <li class="category5"><a data-text-content="twitter" href="#" target="_blank">新品上市</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+
+
+
+    </main>
+
+    <div class="right-sidebar">right-sidebar</div>
+
+    <footer>
+        <p>©2021 MyShop All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
